@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score.css">
+    <title>My The Voice of EuroFans Scoreboard</title>
+</head>
+<body>
+    <div style="position: sticky; top: 0; z-index: 1000; width: 100%; background-color: aliceblue;">
+        <a href="https://vidadiali.github.io/EuroFans/" target="_blank" style="color: white; text-decoration: none; width: 50%; margin: 5px 25%; padding: 10px 0; display: inline-block; text-align: center; border-radius: 5px; background: blue;">ODDS</a>
+        <h1 style="height: 65px; width: 100%; color: white; background: url(voice/12xal.png) left 9px / 55px no-repeat black; line-height: 65px; font-size: .85rem; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-left: 60px; border-bottom: 1px solid white;">Updated twice a day - "noon and night"</h1>
+    </div>
+    <form class="score" action="https://formspree.io/f/mayzoaev" method="POST">
+        <div class="country" id="div1">
+            <span class="img"><img src="voice/fin.png" id="img1"></span>
+            <span class="country-name"><span id="o1">Finland</span><span id="a1">F STATION</span></span>
+            <span class="puan1" id="p1">0</span>
+            <select class="puan2" id="p_1" name="Finland">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div2">
+            <span class="img"><img src="voice/swi.png" id="img2"></span>
+            <span class="country-name"><span id="o2">Switzerland</span><span id="a2">Illy & Kamran</span></span>
+            <span class="puan1" id="p2">0</span>
+            <select class="puan2" id="p_2" name="Switzerland">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div3">
+            <span class="img"><img src="voice/cal.png" id="img3"></span>
+            <span class="country-name"><span id="o3">New Caledonia</span><span id="a3">Khan Terrero</span></span>
+            <span class="puan1" id="p3">0</span>
+            <select class="puan2" id="p_3" name="Caledonia">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div4">
+            <span class="img"><img src="voice/wor.png" id="img4"></span>
+            <span class="country-name"><span id="o4">World</span><span id="a4">Tarlan</span></span>
+            <span class="puan1" id="p4">0</span>
+            <select class="puan2" id="p_4" name="World">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div5">
+            <span class="img"><img src="voice/rom.png"  id="img5"></span>
+            <span class="country-name"><span id="o5">Romania</span><span id="a5">RoxAZElien</span></span>
+            <span class="puan1" id="p5">0</span>
+            <select class="puan2" id="p_5" name="Romania">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div6">
+            <span class="img"><img src="voice/mal.png" id="img6"></span>
+            <span class="country-name"><span id="o6">Malta</span><span id="a6">Mehemmed</span></span>
+            <span class="puan1" id="p6">0</span>
+            <select class="puan2" id="p_6" name="Malta">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div7">
+            <span class="img"><img src="voice/mor.png" id="img7"></span>
+            <span class="country-name"><span id="o7">Morocco</span><span id="a7">Nzzzl</span></span>
+            <span class="puan1" id="p7">0</span>
+            <select class="puan2" id="p_7" name="Morocco">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div8">
+            <span class="img"><img src="voice/sin.png" id="img8"></span>
+            <span class="country-name"><span id="o8">Singapore</span><span id="a8">Husso</span></span>
+            <span class="puan1" id="p8">0</span>
+            <select class="puan2" id="p_8" name="Singapore">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div9">
+            <span class="img"><img src="voice/fra.png" id="img9"></span>
+            <span class="country-name"><span id="o9">France</span><span id="a9">Anar Abbaszade</span></span>
+            <span class="puan1" id="p9">0</span>
+            <select class="puan2" id="p_9" name="France">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div10">
+            <span class="img"><img src="voice/tur.png" id="img10"></span>
+            <span class="country-name"><span id="o10">Turkey</span><span id="a10">Orxan</span></span>
+            <span class="puan1" id="p10">0</span>
+            <select class="puan2" id="p_10" name="Turkey">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div11">
+            <span class="img"><img src="voice/esv.png" id="img11"></span>
+            <span class="country-name"><span id="o11">Eswatini</span><span id="a11">Diego</span></span>
+            <span class="puan1" id="p11">0</span>
+            <select class="puan2" id="p_11" name="Eswatini">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div12">
+            <span class="img"><img src="voice/bul.png" id="img12"></span>
+            <span class="country-name"><span id="o12">Bulgaria</span><span id="a12">HAN</span></span>
+            <span class="puan1" id="p12">0</span>
+            <select class="puan2" id="p_12" name="Bulgaria">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div13">
+            <span class="img"><img src="voice/jap.png" id="img13"></span>
+            <span class="country-name"><span id="o13">Japan</span><span id="a13">Mirze</span></span>
+            <span class="puan1" id="p13">0</span>
+            <select class="puan2" id="p_13" name="Japan">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div14">
+            <span class="img"><img src="voice/isr.png" id="img14"></span>
+            <span class="country-name"><span id="o14">Israel</span><span id="a14">Gozel</span></span>
+            <span class="puan1" id="p14">0</span>
+            <select class="puan2" id="p_14" name="Israel">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div15">
+            <span class="img"><img src="voice/net.png" id="img15"></span>
+            <span class="country-name"><span id="o15">The Netherlands</span><span id="a15">Nergiz</span></span>
+            <span class="puan1" id="p15">0</span>
+            <select class="puan2" id="p_15" name="Netherlands">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div16">
+            <span class="img"><img src="voice/cze.png" id="img16"></span>
+            <span class="country-name"><span id="o16">Czechia</span><span id="a16">Nigar</span></span>
+            <span class="puan1" id="p16">0</span>
+            <select class="puan2" id="p_16" name="Czechia">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div17">
+            <span class="img"><img src="voice/mac.png" id="img17"></span>
+            <span class="country-name"><span id="o17">North Macedonia</span><span id="a17">Vankhud</span></span>
+            <span class="puan1" id="p17">0</span>
+            <select class="puan2" id="p_17" name="Macedonia">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div18">
+            <span class="img"><img src="voice/qat.png" id="img18"></span>
+            <span class="country-name"><span id="o18">Qatar</span><span id="a18">T.I.ViAl</span></span>
+            <span class="puan1" id="p18">0</span>
+            <select class="puan2" id="p_18" name="Qatar">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div19">
+            <span class="img"><img src="voice/swe.png" id="img19"></span>
+            <span class="country-name"><span id="o19">Sweden</span><span id="a19">Ozzy & Ariana Grande</span></span>
+            <span class="puan1" id="p19">0</span>
+            <select class="puan2" id="p_19" name="Sweden">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div20">
+            <span class="img"><img src="voice/bur.png" id="img20"></span>
+            <span class="country-name"><span id="o20">Burkina Faso</span><span id="a20">VKS</span></span>
+            <span class="puan1" id="p20">0</span>
+            <select class="puan2" id="p_20" name="Burkina">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <div class="country" id="div21">
+            <span class="img"><img src="voice/nor.png" id="img21"></span>
+            <span class="country-name"><span id="o21">Norway</span><span id="a21">NaRza</span></span>
+            <span class="puan1" id="p21">0</span>
+            <select class="puan2" id="p_21" name="Norway">
+                <option value="give puan">give</option>
+                <option value="12">12</option>
+                <option value="10">10</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+        </div>
+        <input id="save" type="submit" value="save" style="width: 80px; padding: 15px 0; background: rgb(6, 60, 6); color: white; border: 0; border-radius: 5px; margin: 20px auto;">
+    </form>
+
+    <div class="alert1">
+        <button id="result">Result</button>
+        <button id="puan">Give puan</button>
+    </div>
+
+    <div style="display: none; position: absolute; z-index: -5;">
+
+        <span id="rom">12</span>
+        <span id="net">0</span>
+        <span id="mal">0</span>
+        <span id="nor">0</span>
+        <span id="bul">0</span>
+        <span id="qat">0</span>
+        <span id="bur">0</span>
+        <span id="esv">0</span>
+        <span id="jap">0</span>
+        <span id="tur">0</span>
+        <span id="swi">0</span>
+        <span id="cal">0</span>
+        <span id="wor">0</span>
+        <span id="mor">0</span>
+        <span id="sin">0</span>
+        <span id="fra">0</span>
+        <span id="cze">0</span>
+        <span id="isr">0</span>
+        <span id="mac">0</span>
+        <span id="fin">0</span>
+        <span id="swe">10</span>
+    
+    
+      </div>
+
+    <script>
+        let face=document.querySelector('.alert1');
+        result.onclick=function(){
+            let Finland=Number(fin.textContent), Switzerland=Number(swi.textContent), Caledonia=Number(cal.textContent), 
+            World=Number(wor.textContent), Romania=Number(rom.textContent), Malta=Number(mal.textContent), Morocco=Number(mor.textContent), 
+            Singapore=Number(sin.textContent), France=Number(fra.textContent), Turkey=Number(tur.textContent), 
+            Eswatini=Number(esv.textContent), Bulgaria=Number(bul.textContent), Japan=Number(jap.textContent), 
+            Israel=Number(isr.textContent), Netherlands=Number(net.textContent), Czech=Number(cze.textContent), 
+            Macedonia=Number(mac.textContent), Qatar=Number(qat.textContent), Sweden=Number(swe.textContent),
+            Burkina=Number(bur.textContent), Norway=Number(nor.textContent);
+     
+
+            let result_last=[p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21], 
+            puans=[p_1, p_2, p_3, p_4, p_5, p_6, p_7, p_8, p_9, p_10, p_11, p_12, p_13, p_14, p_15, p_16, p_17, p_18, p_19, p_20, p_21];
+
+            face.style.display="none";
+            div1.style.background="linear-gradient(to right, rgb(133, 123, 10), rgb(237, 253, 7))";
+            div2.style.background="linear-gradient(to right, rgb(46, 46, 47), rgb(111, 112, 114))";
+            div3.style.background="linear-gradient(to right, rgb(108, 73, 4), rgb(207, 176, 125))";
+            div4.style.background="linear-gradient(to right, rgb(1, 12, 53), rgb(16, 58, 131))";
+            div5.style.background="linear-gradient(to right, rgb(1, 12, 53), rgb(16, 58, 131))";
+            div6.style.background="linear-gradient(to right, rgb(1, 12, 53), rgb(16, 58, 131))";
+            div7.style.background="linear-gradient(to right, rgb(1, 12, 53), rgb(16, 58, 131))";
+            div8.style.background="linear-gradient(to right, rgb(1, 12, 53), rgb(16, 58, 131))";
+            div9.style.background="linear-gradient(to right, rgb(1, 12, 53), rgb(16, 58, 131))";
+            div10.style.background="linear-gradient(to right, rgb(1, 12, 53), rgb(16, 58, 131))";
+            for(let i=0; i<21; i++){
+                result_last[i].style.display="inline-block";
+                puans[i].style.display="none";
+            }
+
+
+      var Img1 = document.getElementById('img1');
+      var Img2 = document.getElementById('img2');
+      var Img3 = document.getElementById('img3');
+      var Img4 = document.getElementById('img4');
+      var Img5 = document.getElementById('img5');
+      var Img6 = document.getElementById('img6');
+      var Img7 = document.getElementById('img7');
+      var Img8 = document.getElementById('img8');
+      var Img9 = document.getElementById('img9');
+      var Img10 = document.getElementById('img10');
+      var Img11 = document.getElementById('img11');
+      var Img12 = document.getElementById('img12');
+      var Img13 = document.getElementById('img13');
+      var Img14 = document.getElementById('img14');
+      var Img15 = document.getElementById('img15');
+      var Img16 = document.getElementById('img16');
+      var Img17 = document.getElementById('img17');
+      var Img18 = document.getElementById('img18');
+      var Img19 = document.getElementById('img19');
+      var Img20 = document.getElementById('img20');
+      var Img21 = document.getElementById('img21');
+      
+      
+
+      var list1 = [Finland, Switzerland, Caledonia, World, Romania, Malta, Morocco, Singapore, France, Turkey, Eswatini, Bulgaria, Japan, Israel, Netherlands, Czech, Macedonia, Qatar, Sweden, Burkina, Norway] ;
+
+      var list2 = ["Finland", "Switzerland", "New Caledonia", "World", "Romania", "Malta", "Morocco", "Singapore", "France", "Turkey", "Eswatini", "Bulgaria", "Japan", "Israel", "The Netherlands", "Czechia", "North Macedonia", "Qatar", "Sweden", "Burkina Faso", "Norway"];
+      
+      var listad = ["F STATION", "Illy & Kamran", "Khan Terrero", "Tarlan", "RoxAZElien", "Mehemmed", "Nzzzl", "Husso", "Anar Abbaszade", "Orxan", "DieGo", "HAN", "Mirze", "Gozel", "Nergiz", "Nigar", "Vankhud", "T.I.ViAl", "Ozzi & Ariana Grande", "VKS", "NaRza"]
+
+      var listimg = ['voice/fin.png', 'voice/swi.png', 'voice/cal.png', 'voice/wor.png', 'voice/rom.png', 'voice/mal.png', 'voice/mor.png', 'voice/sin.png', 'voice/fra.png', 'voice/tur.png', 'voice/esv.png','voice/bul.png', 'voice/jap.png', 'voice/isr.png', 'voice/net.png', 'voice/cze.png', 'voice/mac.png', 'voice/qat.png', 'voice/swe.png', 'voice/bur.png', 'voice/nor.png'];
+
+
+      var list3 = [21];
+      var list4 = [21];
+      var list5 = [21];
+      var list6 = [21];
+      var boyuk = 0, indexx = 0, n = 21, c = 0, evez1, evez2, evez3, evez4;
+      for (var i = 0; i < 21; i++) {
+        for (var j = 0; j < n; j++) {
+          if (list1[j] >= boyuk) {
+            boyuk = list1[j];
+            indexx = j;
+          }
+        }
+
+        list3[c] = list2[indexx];
+        list4[c] = boyuk;
+        list5[c] = listad[indexx];
+        list6[c] = listimg[indexx];
+
+        evez3 = listimg[n - 1];
+        listimg[n - 1] = listimg[indexx];
+        listimg[indexx] = evez3;
+
+        evez4 = listad[n - 1];
+        listad[n - 1] = listad[indexx];
+        listad[indexx] = evez4;
+
+        evez2 = list2[n - 1];
+        list2[n - 1] = list2[indexx];
+        list2[indexx] = evez2;
+
+        evez1 = list1[n - 1];
+        list1[n - 1] = list1[indexx];
+        list1[indexx] = evez1;
+        n--;
+        c++;
+        boyuk = 0;
+      }
+            
+            p1.textContent = list4[0];
+            p2.textContent = list4[1];
+            p3.textContent = list4[2];
+            p4.textContent = list4[3];
+            p5.textContent = list4[4];
+            p6.textContent = list4[5];
+            p7.textContent = list4[6];
+            p8.textContent = list4[7];
+            p9.textContent = list4[8];
+            p10.textContent = list4[9];
+            p11.textContent = list4[10];
+            p12.textContent = list4[11];
+            p13.textContent = list4[12];
+            p14.textContent = list4[13];
+            p15.textContent = list4[14];
+            p16.textContent = list4[15];
+            p17.textContent = list4[16];
+            p18.textContent = list4[17];
+            p19.textContent = list4[18];
+            p20.textContent = list4[19];
+            p21.textContent = list4[20];
+
+
+            o1.textContent = list3[0];
+            o2.textContent = list3[1];
+            o3.textContent = list3[2];
+            o4.textContent = list3[3];
+            o5.textContent = list3[4];
+            o6.textContent = list3[5];
+            o7.textContent = list3[6];
+            o8.textContent = list3[7];
+            o9.textContent = list3[8];
+            o10.textContent = list3[9];
+            o11.textContent = list3[10];
+            o12.textContent = list3[11];
+            o13.textContent = list3[12];
+            o14.textContent = list3[13];
+            o15.textContent = list3[14];
+            o16.textContent = list3[15];
+            o17.textContent = list3[16];
+            o18.textContent = list3[17];
+            o19.textContent = list3[18];
+            o20.textContent = list3[19];
+            o21.textContent = list3[20];
+
+
+            a1.textContent = list5[0];
+            a2.textContent = list5[1];
+            a3.textContent = list5[2];
+            a4.textContent = list5[3];
+            a5.textContent = list5[4];
+            a6.textContent = list5[5];
+            a7.textContent = list5[6];
+            a8.textContent = list5[7];
+            a9.textContent = list5[8];
+            a10.textContent = list5[9];
+            a11.textContent = list5[10];
+            a12.textContent = list5[11];
+            a13.textContent = list5[12];
+            a14.textContent = list5[13];
+            a15.textContent = list5[14];
+            a16.textContent = list5[15];
+            a17.textContent = list5[16];
+            a18.textContent = list5[17];
+            a19.textContent = list5[18];
+            a20.textContent = list5[19];
+            a21.textContent = list5[20];
+      
+
+            Img1.src = list6[0];
+            Img2.src = list6[1];
+            Img3.src = list6[2];
+            Img4.src = list6[3];
+            Img5.src = list6[4];
+            Img6.src = list6[5];
+            Img7.src = list6[6];
+            Img8.src = list6[7];
+            Img9.src = list6[8];
+            Img10.src = list6[9];
+            Img11.src = list6[10];
+            Img12.src = list6[11];
+            Img13.src = list6[12];
+            Img14.src = list6[13];
+            Img15.src = list6[14];
+            Img16.src = list6[15];
+            Img17.src = list6[16];
+            Img18.src = list6[17];
+            Img19.src = list6[18];
+            Img20.src = list6[19];
+            Img21.src = list6[20];
+        } 
+        puan.onclick=function(){
+            let result_last=[p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21], 
+            puans=[p_1, p_2, p_3, p_4, p_5, p_6, p_7, p_8, p_9, p_10, p_11, p_12, p_13, p_14, p_15, p_16, p_17, p_18, p_19, p_20, p_21];
+
+            face.style.display="none";
+            for(let i=0; i<21; i++){
+                puans[i].style.display="inline-block";
+                result_last[i].style.display="none";
+            }
+        } 
+        save.onclick=function(){
+            alert('Your votes are saved. Thank your for voiting. \n You can see "last version" to click "Result"');
+        }
+    </script>
+</body>
+</html>
