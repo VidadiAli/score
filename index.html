@@ -401,7 +401,7 @@
 
     <div style="display: none; position: absolute; z-index: -5;">
 
-        <span id="rom">12</span>
+        <span id="rom">0</span>
         <span id="net">0</span>
         <span id="mal">0</span>
         <span id="nor">0</span>
@@ -421,7 +421,7 @@
         <span id="isr">0</span>
         <span id="mac">0</span>
         <span id="fin">0</span>
-        <span id="swe">10</span>
+        <span id="swe">0</span>
     
     
       </div>
@@ -429,7 +429,9 @@
     <script>
         let face=document.querySelector('.alert1');
         result.onclick=function(){
+            
             save.style.display="none";
+            
             let Finland=Number(fin.textContent), Switzerland=Number(swi.textContent), Caledonia=Number(cal.textContent), 
             World=Number(wor.textContent), Romania=Number(rom.textContent), Malta=Number(mal.textContent), Morocco=Number(mor.textContent), 
             Singapore=Number(sin.textContent), France=Number(fra.textContent), Turkey=Number(tur.textContent), 
@@ -632,7 +634,7 @@
             }
         } 
         save.onclick=function(){
-            alert('Your votes are saved. Thank your for voiting. \n You can see "last version" to click "Result"');
+            alert('Your votes are saved. Thank you for your voiting. \n You can see "last version" to click "Result"');
         }
     </script>
 </body>
